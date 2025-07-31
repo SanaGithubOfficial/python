@@ -1,0 +1,287 @@
+processor 
+graphics
+storage
+Python Basics
+datatype : string , tuples, set, dictionary
+condition
+loop > for loop, while loop
+function  > in-built, user-defined
+exception handling
+class & object
+lambda function
+list comprehentions
+generator
+decoder
+API(Application Programming Interface)
+
+python:- python is a general purpose high-level interpreted & dynamic initialized with easy syntax programming language.
+There are two types of machine languages 
+1. high level
+2. low level
+
+1.High level: this language can be understandable by human being
+2.Low level: this language can be understandable by machine ( hard programming)
+
+Translator 
+Compiler 
+Interpreter
+
+BODMAS: Bracket, OF, Divide, Multiply, Add, Subtract
+Bracket:- []- square bracket
+          {}- curly bracket
+          ()- small bracket (parenthesis)
+
+IDE[Integrated Development & Environment]
+Python - vscode
+         notebook
+         google colab
+
+to run shell = ctrl+enter (don't create new shell).
+to create points:- *python
+ASCII:
+
+PYTHON datatypes:
+1.number: 
+ 1.integer
+ 2.float
+ 3.complex
+
+*2.sets
+ 1.union
+ 2.intersection 
+ 3.difference
+ 4.symmetric difference
+
+*3.dictionary
+> dictionaries are used to store data values in key:values pair.
+> a dictionary is a collection which is ordered, changeable and do not allow duplicates
+> dictionary items are presented in key:value pairs, and can be referred to by using the key name
+> dictionaries are changeable, meaning that we can change ,add or remove items after the dictionary has been created
+> dictionary can not have two items with the same key
+> a dictionary can nested and can contains another dictionary
+"keys"-----------"values"
+'name'------------"john"
+'age'------------"25"
+'city'------------"new york"
+'email'----------"bob@web.com"
+
+accessing their of value of dictionary
+how many values in dictionary
+adding new value
+after adding one value next time key is get updated but not create if you want to add then use another case 
+delete an element
+another method for creating dictionary
+>clear function
+>update()
+>items():keys and values in one output
+
+
+4.boolean
+ 1.true
+ 2.false
+
+*5.sequence
+ 1.string:
+        -11-10 -9 -8 -7 -6-5 -4 -3 -2 -1
+         h  e  l  l  o    w  o  r  l  d
+         0  1  2  3  4  5  6 7  8  9  10
+   1.positive indexing 
+   2.negative indexing
+   >len():length of the string
+   >slicing of the string
+   >striding of the string
+   >concatenation
+   >repeatation of string
+   >string operations: upper(),lower(),capitalize(),title()
+   >find()
+   >replace()
+   >format()
+   >split()
+   >strip()
+
+ 2.list
+  >Lists are ordered.
+  >Lists can contains any arbitrary objects.
+  >List elements can be accessed by an index.
+  >Lists can be nested to arbitrary depth.
+  >Lists are mutable
+  >Lists are dynamic
+ 3.tuples
+
+* Operators in python:
+ 1.assignment operator : [=]
+ 2.arithmetic operator : [+,-,*,/,%,&,**]
+  >>binary operator : [+,-,*,/,%,**]
+  >>unary operator :[++,--]
+ 3.Relational operator : [<,>,<=,>=,==,!=]
+ 4.membership operator: [in, not in]
+ 5.logical operator: [AND,OR,NOT]
+ 6.identity operator: [is, is not]
+
+
+
+4.Tuples
+in tuples we have to include ',' in data if you dont include it it gets the datatype of data 
+agregate function
+in sorting of tuple it convert tuple into list to sort data inside of tuple 
+
+5.Sets in python:
+>set is one of the 4th built-in data type in python used to store collections of data including tuples,and dictionary
+>sets are unordered but you can remove items and add new items
+> set elements are unique, duplicate elements are not allowed 
+> a set itself may be modified but the elements contained in the set must be of an immutable type
+> you can denote a set with a pair or curly brackets{}
+sets change its order while getting output
+converting list to set
+one time one variable can change
+
+set operations:
+set{[]} to convert list into set
+add(): to add an element into a set we use fun add().if the same element is added to the set nothing will happened because the set accepts not duplicate
+>append, extend and insert will not work in sets
+update(): to add multiple element into a set
+remove(): to remove an element from the set second time get error 
+delete needs index value and remove dont need index value
+set:value=key, list:value=element
+discard(): it leaves the set unchanged if the element to be deleted . don't get error 
+
+>logical operations
+union: remove duplicacy
+intersection :print common value opposite to union (&=ampercent )
+difference :(a-b), (b-a)                         
+symmetric difference:(a-b)+(b-a)
+
+super set: super set can contain additional elements not present in the subset
+
+subset:every member of subset is also member of superset
+
+
+
+* Conditions in Python:
+operators
+1.assignment: =
+2.arithmetic: +,-,*,/,%,**
+3.comparison: <,>,<=,>=,==.!=
+4.membership: in, not in
+5.logical: AND,OR,NOT
+6.identity: is, is not
+
+Branching (if,else,elif)
+>Decision making is required when we want to execute a code only if a certain condition is satisfied
+> the if/elif/else statement is used in python for decision making.
+> an else statement can be combined with an if statement. 
+> an else statement contains the block of code that executes if the conditional expression in the first statement resolves to 0 or a false value.
+> the else statement is an optional statement and there could be at most only one else statement following if .
+> the elif statement allows you to check multiple expression for true and execute a block of code as soon as one of the condition evaluates to true.
+> similar to the else the elif statement is optional .
+> however unlike else for which there can be at most one statement there can be an arbitrary number of elif statements following an if.
+
+get input from user and check user is eligible for voting or not
+
+
+* Loops in Python: *
+>A for loop is used for iterating over a sequence (i.e. either a list, a tuple, a dictionary, a set, or a string)
+>This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-oriented programming langueges.
+>With the for loop, we can execute a set of statements, once for each item in a list, tuple, set etc.
+>The for loop does not require an indexing variable to set beforehand .
+>With the while loop we can execute a set of statements as long as a condition is true.
+>Note: remember to increment i, or else the loop will continue forever .
+>The while loop requires relevant variables to be ready, in this example we need to define an indexing variable, i, which we set to 1
+
+# range() function:
+> It is helpful to think of the range object as an ordered list.
+> To loop through a set of code a specified number of times ,we can use the range() function
+> The range() function returns a sequence of numbers, starting from 0 by default, and incremens by 1 (by default) , and ends at a specified number.
+
+forkeyword  variable  anydatatypeofpython  trueblockofloop
+  for         i        in                   iterator():
+    statement
+  else:
+    statement()
+
+
+
+while loop:
+
+
+
+12. exception handling:
+an exception handling is an event occurs during the execution of a program that disrupt the normal flow of the program instructions 
+in general when a python script encounters that it cannot cope with it it raises an exceptions
+an exception is a python object that represents an error
+an exception is a python script raises an exceptions it must either handle the exception immediately otherwise it terminates and quits
+if you have some suspicious code that may raise an exceptions you can defend you program by placing the suspicious code in a try:block
+after that try:block include an except:statement followed by a block of code which hansles the problems as elegently as possible
+some common exceptions:
+ZeroDivisionError
+NameError
+ValueError
+IOError(inputOutputError)
+EOFError(End of File Error)
+IdentationError
+
+
+
+
+13. Class & Object:
+python is an object oriented programming language.
+Unlike procedure-oriented programming , where the main emphasis is on functions , object-oriented programming stresses on objects.
+an object is simply a collection of data(variables) and methods(functions) that act on those data.
+similarly a class is a bluepront for that object
+like function definition begin with the def keyword in python class definition begin with a class keyword 
+the first string inside the class is called decstring and has a brief description of the class
+although not mendatory this is highly recomended
+syntax:
+class student:
+    school_name= "ABC School"
+    def init (self,name,age):
+        self.name = name
+        self.age = age
+    obj = student("Harry Porter",25)
+    obj.name
+    obj.age
+
+Pillars of OOps:
+1.Inheritance
+   1>Single Inheritance
+   2>Multiple Inheritance
+   3>Hierarchical Inheritance
+   4>multilevel Inheritance
+   5>Hybrid Inheritance
+2.Encapsulation
+    1>Data hiding
+
+3.Polymorphism
+    1>Overloading
+    2>Overriding
+
+4.Data Abstraction
+    1>Base Abstract Class
+
+
+Self:
+This self parameter is a reference to the current instance of the class and is used to access the variable that belongs to the class
+It does not have to be named self , you can call it whatever you like but it has to be the first parameter of any function in the class
+
+lambda function:
+pandas:
+pip install pandas
+pip install numpy
+pip install matplotlib
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
